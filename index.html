@@ -2,42 +2,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dropport.co | Viral Gadgets Curated for You</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
-    body { background: linear-gradient(to bottom right, #0f172a, #1e293b); color: white; display: flex; flex-direction: column; min-height: 100vh; padding: 20px; }
-    header { text-align: center; padding: 40px 20px 20px; }
-    header h1 { font-size: 2.5rem; color: #facc15; }
-    header p { font-size: 1.2rem; color: #cbd5e1; margin-top: 10px; }
-    .buttons { display: flex; justify-content: center; gap: 20px; margin: 40px 0; }
-    .buttons a { background: #facc15; color: #0f172a; padding: 14px 24px; border-radius: 12px; font-weight: 600; text-decoration: none; transition: background 0.3s; }
-    .buttons a:hover { background: #eab308; }
-    .showcase { text-align: center; margin-top: 20px; }
-    .showcase img { max-width: 100%; height: auto; border-radius: 16px; margin-top: 20px; }
-    footer { margin-top: auto; text-align: center; padding: 20px; font-size: 0.9rem; color: #94a3b8; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropport.co</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom right, #0f4c81, #1e90ff);
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            padding: 50px 20px;
+        }
+        header img {
+            width: 120px;
+            border-radius: 20px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-top: 20px;
+        }
+        p.tagline {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 10px auto 30px;
+        }
+        .cta {
+            display: inline-block;
+            background: #fff;
+            color: #0f4c81;
+            padding: 15px 30px;
+            border-radius: 40px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+        .cta:hover {
+            background: #ffe600;
+            color: #000;
+        }
+        section.features {
+            padding: 60px 20px;
+            background: #f7f9fb;
+            color: #222;
+        }
+        .feature {
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+        .feature h3 {
+            font-size: 1.5rem;
+        }
+        .footer {
+            padding: 40px;
+            font-size: 0.9rem;
+            color: #aaa;
+            background: #0f4c81;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>GadgetsByDPCO</h1>
-    <p>Viral gadgets from around the world. Curated by Dropport.co</p>
-  </header>
+    <header>
+        <img src="logo.jpg" alt="Dropport Logo">
+        <h1>Gadgets that go viral.</h1>
+        <p class="tagline">สินค้าที่คุณเคยเห็นในคลิป แต่หาซื้อไม่ได้ — ตอนนี้อยู่ในมือคุณแล้ว</p>
+        <a href="https://shopee.co.th" class="cta">Shop Now on Shopee</a>
+    </header>
 
-  <div class="buttons">
-    <a href="https://shopee.co.th/shop/0">Visit Shopee Store</a>
-    <a href="https://www.tiktok.com/@dropport.co">TikTok Shop</a>
-  </div>
+    <section class="features">
+        <div class="feature">
+            <h3>🧠 เราคัด Gadget ที่น่าทึ่งจากคลิปต่างประเทศ</h3>
+            <p>ของที่ไม่ต้องลองเองให้เสียเวลา — Dropport คัดให้แล้วว่าน่าใช้</p>
+        </div>
+        <div class="feature">
+            <h3>🚀 พร้อมจัดส่งในไทย</h3>
+            <p>ไม่ต้องรอจากจีน ไม่ต้องกลัวโกง สบายใจได้ในทุกคลิก</p>
+        </div>
+        <div class="feature">
+            <h3>📱 คลิปไวรัล = ของจริง</h3>
+            <p>เราสร้างคอนเทนต์ด้วย AI ให้คุณมั่นใจก่อนซื้อทุกครั้ง</p>
+        </div>
+    </section>
 
-  <div class="showcase">
-    <p>🎬 Check out our latest viral finds:</p>
-    <img src="https://via.placeholder.com/800x400?text=Gadget+Showcase" alt="Gadget preview" />
-  </div>
-
-  <footer>
-    &copy; 2025 Dropport.co — Powered by curiosity and fast shipping.
-  </footer>
+    <div class="footer">
+        © 2025 Dropport.co — All rights reserved.
+    </div>
 </body>
 </html>
