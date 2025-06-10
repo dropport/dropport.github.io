@@ -2,144 +2,60 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dropport.co (Gadgets by DPCO)</title>
-
-  <!-- โหลดฟอนต์ Onder และ Sunset Heavy จากโฟลเดอร์ fonts/ -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dropport.co ปรับปรุงเว็บไซต์</title>
   <style>
-    @font-face {
-      font-family: 'Onder';
-      src: url('fonts/Onder.ttf') format('truetype');
-      font-weight: normal;
-      font-style: normal;
-    }
-    @font-face {
-      font-family: 'SunsetHeavy';
-      src: url('fonts/SunsetHeavy.ttf') format('truetype');
-      font-weight: normal;
-      font-style: normal;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    /* Reset เล็กน้อย */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
-      font-family: Arial, sans-serif;
-      background-color: #111;
-      color: #fff;
-      line-height: 1.5;
-    }
-
-    .hero {
+      font-family: 'Prompt', sans-serif;
+      background: #0047AB; /* สีน้ำเงิน Dropport */
+      color: #ffffff;
       display: flex;
-      justify-content: center;
       align-items: center;
-      text-align: center;
+      justify-content: center;
       min-height: 100vh;
-      padding: 0 20px;
-      position: relative;
-      background: linear-gradient(135deg, #0d47a1 0%, #1976d2 100%);
-    }
-
-    .hero h1 {
-      font-family: 'Onder', sans-serif;
-      font-size: 3rem;
-      margin-bottom: 1rem;
-    }
-    .hero p {
-      font-family: 'Onder', sans-serif;
-      font-size: 1.5rem;
-      opacity: 0.9;
-    }
-
-    .cart-btn {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      background-color: rgba(255, 255, 255, 0.1);
-      border: 2px solid #fff;
-      border-radius: 4px;
-      padding: 10px 15px;
-      font-family: 'Onder', sans-serif;
-      font-size: 1rem;
-      color: #fff;
-      text-decoration: none;
-      transition: background 0.2s, transform 0.2s;
-    }
-    .cart-btn:hover {
-      background-color: rgba(255, 255, 255, 0.2);
-      transform: scale(1.05);
-    }
-
-    .contact {
-      background-color: #222;
-      padding: 40px 20px;
+      padding: 20px;
       text-align: center;
     }
-    .contact h2 {
-      font-family: 'SunsetHeavy', sans-serif;
-      font-size: 2rem;
-      margin-bottom: 20px;
-      color: #ffd740;
-    }
-    .contact ul {
-      list-style: none;
-      font-family: 'SunsetHeavy', sans-serif;
-      font-size: 1.2rem;
-      line-height: 2;
-    }
-    .contact ul li a {
-      color: #fff;
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-    .contact ul li a:hover {
-      color: #ffd740;
+
+    .container {
+      max-width: 400px;
     }
 
-    @media (max-width: 480px) {
-      .hero h1 {
-        font-size: 2.2rem;
-      }
-      .hero p {
-        font-size: 1.2rem;
-      }
-      .cart-btn {
-        font-size: 0.9rem;
-        padding: 8px 12px;
-      }
-      .contact h2 {
-        font-size: 1.5rem;
-      }
-      .contact ul li {
-        font-size: 1rem;
-      }
+    .logo {
+      width: 120px;
+      margin: 0 auto 20px;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 16px;
+      line-height: 1.4;
+    }
+
+    p {
+      font-size: 1rem;
+      opacity: 0.9;
+      line-height: 1.6;
+    }
+
+    @media (min-width: 600px) {
+      h1 { font-size: 2rem; }
+      p  { font-size: 1.125rem; }
     }
   </style>
 </head>
 <body>
-
-  <section class="hero">
-    <a href="cart.html" class="cart-btn">Tap the cart. 🛒</a>
-    <div>
-      <h1>Hi there, we are Dropport.co<br>(Gadgets by DPCO)</h1>
-      <p>Viral clips with cool gadgets is ready to ship 🚀</p>
-    </div>
-  </section>
-
-  <section class="contact">
-    <h2>Contact Us</h2>
-    <ul>
-      <li>Facebook : <a href="https://www.facebook.com/dropport.co" target="_blank">dropport.co</a></li>
-      <li>IG       : <a href="https://www.instagram.com/dropport.co" target="_blank">dropport.co</a></li>
-      <li>TikTok   : <a href="https://www.tiktok.com/@dropport.co" target="_blank">dropport.co</a></li>
-      <li>YouTube  : <a href="https://www.youtube.com/dropport.youtube" target="_blank">dropport.youtube</a></li>
-      <li>Email    : <a href="mailto:dropport.co@gmail.com">dropport.co@gmail.com</a></li>
-    </ul>
-  </section>
-
+  <div class="container">
+    <img src="Cloudy_Wai_No_Bg.png" alt="Cloudy Mascot" class="logo" />
+    <h1>Cloudy ขออภัยในความไม่สะดวกครับ</h1>
+    <p>
+      ขณะนี้พวกเรา <strong>Dropport.co</strong> กำลังปิดปรับปรุงเว็บไซต์<br/>
+      เพื่อพัฒนาให้ดียิ่งขึ้นในอนาคต<br/>
+      ขอบพระคุณที่เข้ามาเยี่ยมชม และติดตามพวกเรานะครับ
+    </p>
+  </div>
 </body>
 </html>
